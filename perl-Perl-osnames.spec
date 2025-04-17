@@ -28,6 +28,8 @@ BuildArch:      noarch
 BuildRequires:  perl-macros-suse
 BuildRequires:  perl-generators
 BuildRequires:  perl(Test::More) >= 0.98
+BuildRequires:  perl(blib)
+BuildRequires:  make
 %{?perl_requires}
 
 %description

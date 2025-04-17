@@ -1,6 +1,7 @@
 <services>
   <service name="cpanspec" mode="manual">
     <param name="source">Perl::osnames</param>
-    <!--param name="add-requires">libarchive-devel</param-->
+    <param name="add-buildrequires">make</param>
+    <param name="add-buildrequires">perl(blib)</param>
   </service>
 </services>
